@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+p {
+    text-align: left;
+}
+
+body {
+    width: 1000px;
+}
+
+#relative {
+    background-color: #ccc;
+    height: 200px;
+    position: relative;
+
+}
+#fixed {
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 200px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+}
+#absolute {
+    background-color: gray;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 850px;
+    bottom: 0px;
+}
+div {
+    text-align: center;
+}
+h1 {
+    text-align: left;
+}
